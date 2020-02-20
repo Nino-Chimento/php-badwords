@@ -1,6 +1,7 @@
 <?php
 $text = " non capisco perche funziona cosi male MAMP";
-$parola = "capisco"
+$parola = "capisco";
+$nuovo_testo = str_replace($parola, "***", $text)
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -11,5 +12,6 @@ $parola = "capisco"
   <body>
     <h1><?php echo $text; ?></h1>
     <h2> <?php echo strlen($text) ?></h2>
+    <h3> <?php echo $nuovo_testo; ?></h3>
   </body>
 </html>
