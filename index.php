@@ -1,6 +1,6 @@
 <?php
 $text = " non capisco perche funziona cosi male MAMP";
-$text = $_GET ["numero"]
+$parola = "capisco"
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -9,6 +9,7 @@ $text = $_GET ["numero"]
     <title></title>
   </head>
   <body>
-    <h1><?php echo $text ?></h1>
+    <h1><?php echo $text; ?></h1>
+    <h2> <?php echo strlen($text) ?></h2>
   </body>
 </html>
